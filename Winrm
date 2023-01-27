@@ -1,0 +1,15 @@
+title: Winrm
+id: 026a9c52-b15d-484b-a8fa-e391c5229e1e
+description: Определение подключения по winrm
+date: 2023/01/27
+modified: 2023/01/27
+status: experimental
+level: medium
+detection:
+  element1:
+      event_identifier: 4624
+  element2:
+     xml_string: <Data Name="LogonType">3</Data>
+  element3:
+     xml_string: <Data Name="IpAddress">-</Data>
+  condition: element1 and element2 or element3
