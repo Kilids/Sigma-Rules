@@ -1,0 +1,13 @@
+title: Whoami
+id: 026a9c52-b15d-484b-a8fa-e391c5229e1t
+description: Определение использование команды whoami в командной строке 
+date: 2023/01/27
+modified: 2023/01/27
+status: experimental
+level: medium
+detection:
+  element1:
+      event_identifier: 4688
+  element2:
+     strings: "C:\\Windows\\System32\\whoami.exe"
+  condition: element1 and element2
