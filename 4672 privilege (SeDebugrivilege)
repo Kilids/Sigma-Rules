@@ -1,0 +1,13 @@
+title: 4672 privilege (SeDebugrivilege)
+id: 026a9c52-b15d-484b-a8fa-e391c5229ce5
+description: Определение SeDebugrivilege
+date: 2023/04/17
+modified: 2023/04/17
+status: experimental
+level: medium
+detection:
+  element1:
+      event_identifier: 4672
+  element2:
+     strings: SeDebugrivilege
+  condition: element1 and element2
