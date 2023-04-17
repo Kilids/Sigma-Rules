@@ -12,4 +12,4 @@ detection:
      xml_string: <Data Name="LogonType">3</Data>
   element3:
      xml_string: <Data Name="IpAddress">-</Data>
-  condition: element1 and element2 or element3
+  condition: element1 and element2 and element3
