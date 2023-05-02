@@ -1,0 +1,11 @@
+title: RDP(1149)
+id: 38451875-36f5-4bc7-ab3a-59061e26a018
+description: RDP EvenID 1149
+date: 2023/05/02
+modified: 2023/04/02
+status: experimental
+level: medium
+detection:
+  element1:
+      event_identifier: 1149
+  condition: element1
