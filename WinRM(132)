@@ -1,0 +1,13 @@
+title: WinRM(132)
+id: 1342a0b2-b8ea-429f-84d6-68b2e90ff381
+description: WinRM EvenID 132
+date: 2023/05/02
+modified: 2023/04/02
+status: experimental
+level: medium
+detection:
+  element1:
+      event_identifier: 132
+  element2:
+      display_name: Microsoft-Windows-WinRM
+  condition: element1 AND element2
