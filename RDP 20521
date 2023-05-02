@@ -1,0 +1,11 @@
+title: RDP(20521)
+id: fa46dc88-eff0-4ff6-9150-ded201147b53
+description: RDP EvenID 20521
+date: 2023/05/02
+modified: 2023/04/02
+status: experimental
+level: medium
+detection:
+  element1:
+      event_identifier: 20521
+  condition: element1
