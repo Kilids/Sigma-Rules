@@ -1,0 +1,13 @@
+title: RDP(132)
+id: d7fd5e4f-4f15-4bc1-94ea-057d0b211baa
+description: RDP EvenID 132
+date: 2023/05/02
+modified: 2023/04/02
+status: experimental
+level: medium
+detection:
+  element1:
+      event_identifier: 132
+  element2:
+      display_name: Microsoft-Windows-RemoteDesktopServices-RdpCoreTS
+  condition: element1 AND element2
