@@ -1,0 +1,13 @@
+title: RDP(25)
+id: b0a5ec8f-1a07-4c20-916c-61cb280acdc3
+description: Seccessful establishment of a remote desktop session
+date: 2023/05/02
+modified: 2023/04/02
+status: experimental
+level: medium
+detection:
+  element1:
+      event_identifier: 25
+  element2:
+      display_name: Microsoft-Windows-TerminalServices-LocalSessionManager
+  condition: element1 AND element2
