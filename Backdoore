@@ -1,0 +1,17 @@
+title: Backdoore 
+id: 666baf51-f933-4fed-b005-184187955e72
+description: BAAACKDOOORE
+date: 2023/05/02
+modified: 2023/04/02
+status: experimental
+level: medium
+detection:
+  element1:
+      event_identifier: 1
+  element2:
+      event_identifier: 3
+  element3:
+      event_identifier: 2049
+  element4:
+      message: USN_REASON_DATA_EXTEND, USN_REASON_DATA_TRUNCATION, USN_REASON_CLOSE
+  condition: (element1 or element2 or element3) or element4
